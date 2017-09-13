@@ -15,7 +15,7 @@ function whileLoop(number){
 
 function doWhileLoop (array){
   do{
-    array.length = array.length-1;
+    array.shft();
   } while (array.length > 0 && maybeTrue())
   return array;
 }
